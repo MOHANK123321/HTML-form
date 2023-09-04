@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Registration Form</h1>
+        <div style=" display: flex;  justify-content: center; align-items: center; ">
+       
+        <div style=" display: flex;  justify-content: center; width: 500px; height: max-content; background-color: gainsboro; border: 1px solid black;">
+           
+        
+            <form style="align-items: center;"><br>
+                <label for="fname">First Name :</label>
+                <input type="text" name="firstname" id="fname" placeholder="Enter your First Name"><br><br>
+
+                <label for="lname">Last Name :</label>
+                <input type="text" name="lastname" id="lname" placeholder="Enter your Last Name"><br><br>
+
+                <label for="pass">Password :</label>
+                <input type="text" name="password" id="pass" placeholder="Enter your Password"><br><br>
+
+                <label for="password">Confirm Password :</label>
+                <input type="text" name="Confirm password" id="password" placeholder="Enter your Password again"><br><br>
+
+                <label for="email">Mail Id :</label>
+                <input type="text" name="Enter Your Mail Id" id="email" placeholder="Enter Your Mail Id"><br><br>
+
+                <label for="phone">Phone Number :</label>
+                <input type="text" name="Phone Number" id="phone" placeholder="Enter your Phone Number"><br><br>
+
+                <label for="DOB">DOB :</label>
+                <input type="date" id="DOB" name="DOB"><br><br>
+
+                <label for="Gender">Select your Gender :</label>
+                <select id="Gender" name="Gender">
+                  <option value="Select">Select</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                  <option value="Prefer not to say">Prefer not to say</option>
+                </select><br><br>
+
+                <label for="Address">Address :</label><br>
+                <textarea name="Address" rows="6" cols="40" id="Address" placeholder="Enter your Address"></textarea><br><br>
+
+                <input type="reset">
+                <button style="background-color: #04AA6D;" type="button" onclick="alert('Registered Successfully')">Register</button>
+            </form>
+        </div>
+    </div>
+    </body>
+</html>
